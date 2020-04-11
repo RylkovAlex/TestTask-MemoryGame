@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/CDG-memory-game/static/css/main.4fa314cf.chunk.css",
-    "main.js": "/CDG-memory-game/static/js/main.468c4fb5.chunk.js",
-    "main.js.map": "/CDG-memory-game/static/js/main.468c4fb5.chunk.js.map",
+    "main.js": "/CDG-memory-game/static/js/main.44ed15de.chunk.js",
+    "main.js.map": "/CDG-memory-game/static/js/main.44ed15de.chunk.js.map",
     "runtime-main.js": "/CDG-memory-game/static/js/runtime-main.007ba9b6.js",
     "runtime-main.js.map": "/CDG-memory-game/static/js/runtime-main.007ba9b6.js.map",
     "static/js/2.3bc75b19.chunk.js": "/CDG-memory-game/static/js/2.3bc75b19.chunk.js",
     "static/js/2.3bc75b19.chunk.js.map": "/CDG-memory-game/static/js/2.3bc75b19.chunk.js.map",
     "index.html": "/CDG-memory-game/index.html",
-    "precache-manifest.3ff777737dac1f2a6c536ac5773f2c77.js": "/CDG-memory-game/precache-manifest.3ff777737dac1f2a6c536ac5773f2c77.js",
+    "precache-manifest.ce8e8bdf7db300c45dd070f41fbc38df.js": "/CDG-memory-game/precache-manifest.ce8e8bdf7db300c45dd070f41fbc38df.js",
     "service-worker.js": "/CDG-memory-game/service-worker.js",
     "static/css/main.4fa314cf.chunk.css.map": "/CDG-memory-game/static/css/main.4fa314cf.chunk.css.map",
     "static/js/2.3bc75b19.chunk.js.LICENSE.txt": "/CDG-memory-game/static/js/2.3bc75b19.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.007ba9b6.js",
     "static/js/2.3bc75b19.chunk.js",
     "static/css/main.4fa314cf.chunk.css",
-    "static/js/main.468c4fb5.chunk.js"
+    "static/js/main.44ed15de.chunk.js"
   ]
 }
