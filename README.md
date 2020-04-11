@@ -1,3 +1,17 @@
+## About
+
+This is a simple memory game, the main feature: you can see the results of previous games that were played in this browser by other users and compare them with your results!
+
+## Technology stack
+1. React
+2. Redux
+3. TypeSctipt
+
+## What is planned to be implemented
+1. Animations and design
+2. The ability to choose the size of the gameboard
+3. Make a complete REST API and store data on the network
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -12,7 +26,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `yarn test`
+### `yarn test` (not yet implemented)
 
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.

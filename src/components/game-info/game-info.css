@@ -1,0 +1,17 @@
+.game-info {
+  height: 20%;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.mistakes, .timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mistakes p,
+.timer p {
+  font-size: 30px;
+  margin: 0;
+}
