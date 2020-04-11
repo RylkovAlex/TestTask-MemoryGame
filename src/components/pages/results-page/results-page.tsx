@@ -26,10 +26,10 @@ const ResultPage: React.FC<{}> = () => {
       results = storage.getResults().sort((a, b) => b.date - a.date);
       break;
     case Sort.Mistakes:
-      results = storage.getResults().sort((a, b) => b.mistakes - a.mistakes);
+      results = storage.getResults().sort((a, b) => a.mistakes - b.mistakes);
       break;
     case Sort.TimeSpend:
-      results = storage.getResults().sort((a, b) => b.time - a.time);
+      results = storage.getResults().sort((a, b) => a.time - b.time);
       break;
     default:
       results = storage.getResults().sort((a, b) => b.date - a.date);
