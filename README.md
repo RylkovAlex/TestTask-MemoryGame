@@ -2,6 +2,8 @@
 
 This is a simple memory game, the main feature: you can see the results of previous games that were played in this browser by other users and compare them with your results!
 
+## [DEMO](https://rylkovalex.github.io/CDG-memory-game/)
+
 ## Technology stack
 1. React
 2. Redux
