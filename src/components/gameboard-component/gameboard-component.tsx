@@ -54,13 +54,13 @@ class GameBoard extends React.Component<GameBoardProps, GameBoardState> {
 
   componentDidMount() {
     this.props.resetGame();
-    this.gameTimerId = setInterval(this.props.tickTimer, 1000)
+    this.gameTimerId = setInterval(this.props.tickTimer, 1000);
   }
 
   componentWillUnmount() {
     clearInterval(this.gameTimerId!);
     this.gameStateTimers.forEach((id: number) => {
-      clearTimeout(id)
+      clearTimeout(id);
     });
   }
 

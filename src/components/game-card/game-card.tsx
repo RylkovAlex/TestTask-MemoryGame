@@ -1,6 +1,6 @@
-import React from 'react';
-import constants from 'src/constants/constants';
-import './game-card.css';
+import React from "react";
+import constants from "src/constants/constants";
+import "./game-card.css";
 
 export interface Card {
   isOpened: boolean;
@@ -21,25 +21,25 @@ const size = {
 
 const GameCard: React.FC<GameCardProps> = ({ data, handleClick }) => {
   const { isDone, isOpened } = data;
-  const cardClasses = ['game-card'];
-  isDone && cardClasses.push('done');
-  isOpened && cardClasses.push('opened');
+  const cardClasses = ["game-card"];
+  isDone && cardClasses.push("done");
+  isOpened && cardClasses.push("opened");
 
   return (
     <div
-      className={cardClasses.join(' ')}
+      className={cardClasses.join(" ")}
       onClick={() => handleClick(data)}
       style={size}
     >
       {!isOpened ? (
-        <div className='front z-depth-5'>
-        <img
-          src={`${constants.PARH_TO_CARD_IMG}/question.png`}
-          alt={data.name}
-        />
-      </div>
+        <div className="front z-depth-5">
+          <img
+            src={`${constants.PARH_TO_CARD_IMG}/question.png`}
+            alt={data.name}
+          />
+        </div>
       ) : (
-        <div className='back z-depth-5'>
+        <div className="back z-depth-5">
           <img
             src={`${constants.PARH_TO_CARD_IMG}/${data.name}.png`}
             alt={data.name}

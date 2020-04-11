@@ -43,7 +43,9 @@ const ResultPage: React.FC<{}> = () => {
             <th>User Name</th>
             <th>
               <p
-                className={`btn blue lighten-1 ${(sort === Sort.Default || sort === Sort.Date) ? 'disabled' : ''}`}
+                className={`btn blue lighten-1 ${
+                  sort === Sort.Default || sort === Sort.Date ? "disabled" : ""
+                }`}
                 onClick={() => setSort(Sort.Date)}
               >
                 Game Date
@@ -51,7 +53,9 @@ const ResultPage: React.FC<{}> = () => {
             </th>
             <th>
               <p
-                className={`btn blue lighten-1 ${(sort === Sort.TimeSpend) ? 'disabled' : ''}`}
+                className={`btn blue lighten-1 ${
+                  sort === Sort.TimeSpend ? "disabled" : ""
+                }`}
                 onClick={() => setSort(Sort.TimeSpend)}
               >
                 Time spend
@@ -59,7 +63,9 @@ const ResultPage: React.FC<{}> = () => {
             </th>
             <th>
               <p
-                className={`btn blue lighten-1 ${(sort === Sort.Mistakes) ? 'disabled' : ''}`}
+                className={`btn blue lighten-1 ${
+                  sort === Sort.Mistakes ? "disabled" : ""
+                }`}
                 onClick={() => setSort(Sort.Mistakes)}
               >
                 Mistakes

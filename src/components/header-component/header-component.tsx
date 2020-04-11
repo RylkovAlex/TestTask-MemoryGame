@@ -9,7 +9,7 @@ import { appState } from "src/redux/reducers/root-reducer/root-reducer";
 interface HeaderProps {
   user?: UserState;
   game?: GameState;
-  logOut: Function
+  logOut: Function;
 }
 
 const Header: React.FC<HeaderProps> = ({ logOut }) => {
@@ -60,8 +60,8 @@ const Header: React.FC<HeaderProps> = ({ logOut }) => {
 const mapStateToProps = (state: appState, ownProps: object) => ({
   ...ownProps,
   game: state.game,
-  user: state.user
-})
+  user: state.user,
+});
 
 const mapDispatchToProps = (dispatch: Function) => ({
   logOut: () => dispatch(actionCreator.logOut()),

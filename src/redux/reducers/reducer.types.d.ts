@@ -1,6 +1,6 @@
 declare interface ReducerAction {
-  type: Actions,
-  payload?: any,
+  type: Actions;
+  payload?: any;
 }
 
 declare interface UserState {
@@ -17,9 +17,9 @@ declare interface GameState {
 }
 
 declare interface UserResult {
-  date: number,
-  time: number,
-  mistakes: number,
+  date: number;
+  time: number;
+  mistakes: number;
 }
 
 declare interface Result {

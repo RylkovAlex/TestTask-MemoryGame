@@ -21,7 +21,8 @@ interface WellcomeScreenProps {
 const WellcomeScreen: React.FC<WellcomeScreenProps> = ({ user }) => (
   <>
     <h3 className="center-align welcome">
-      Hello, {user!.name}!<br/>Are you ready to play?
+      Hello, {user!.name}!<br />
+      Are you ready to play?
     </h3>
     <ul className="collection with-header rules-list">
       <li className="collection-header">
@@ -36,7 +37,11 @@ const WellcomeScreen: React.FC<WellcomeScreenProps> = ({ user }) => (
         </li>
       ))}
     </ul>
-    <Link to="/play" href="#!" className="btn-large blue darken-1 pulse hoverable">
+    <Link
+      to="/play"
+      href="#!"
+      className="btn-large blue darken-1 pulse hoverable"
+    >
       <i className="material-icons Large left">play_arrow</i>START GAME
     </Link>
   </>

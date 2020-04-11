@@ -7,22 +7,25 @@ const gameInitialState: GameState = {
   isFinished: false,
 };
 
-const gameReducer = (state: GameState = gameInitialState, action: ReducerAction) => {
+const gameReducer = (
+  state: GameState = gameInitialState,
+  action: ReducerAction
+) => {
   switch (action.type) {
     case GameActions.INCREMENT_ROUND:
       return Object.assign({}, state, {
         round: state.round + action.payload,
       });
     case GameActions.INCREMENT_MISTAKES:
-      return ({
+      return {
         ...state,
-        mistakes: state.mistakes + action.payload
-      });
+        mistakes: state.mistakes + action.payload,
+      };
     case GameActions.FINISH_GAME:
-      return ({
+      return {
         ...state,
         isFinished: true,
-      });
+      };
     case GameActions.RESET_GAME:
       return Object.assign({}, gameInitialState);
     case GameActions.TICK_TIMER:

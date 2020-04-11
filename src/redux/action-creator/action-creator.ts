@@ -26,7 +26,7 @@ export default {
     type: GameActions.RESET_GAME,
   }),
 
-  saveResult: (user:UserState, result: UserResult) => {
+  saveResult: (user: UserState, result: UserResult) => {
     storage.saveNewResult(user, result);
     return {
       type: UserActions.PUSH_NEW_RESULT,

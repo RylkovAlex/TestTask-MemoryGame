@@ -3,7 +3,7 @@ import actionCreator from "src/redux/action-creator/action-creator";
 import { connect } from "react-redux";
 
 interface AuthPageProps {
-  logIn: (name: string) => ReducerAction
+  logIn: (name: string) => ReducerAction;
 }
 
 const AuthPage: React.FC<AuthPageProps> = ({ logIn }) => {
